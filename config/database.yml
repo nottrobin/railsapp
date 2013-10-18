@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: railsapp_dev
+  pool: 5
+  username: robin
+  password:
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: railsapp_test
+  pool: 5
+  username: robin
+  password:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: railsapp_prod
+  pool: 5
+  username: railsapp
+  password:
